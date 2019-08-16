@@ -1,0 +1,32 @@
+<BossInfo xmlns="http://schemas.datacontract.org/2004/07/DistributGameData" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<Bosses>
+		<Boss>
+			<bossName>Demon</bossName>
+			<damage>50</damage>
+			<defence>40</defence>
+			<healthPoints>800</healthPoints>
+			<targetStrategy>R</targetStrategy>
+		</Boss>
+		<Boss>
+			<bossName>Dragon</bossName>
+			<damage>55</damage>
+			<defence>35</defence>
+			<healthPoints>750</healthPoints>
+			<targetStrategy>H</targetStrategy>
+		</Boss>
+		<Boss>
+			<bossName>Death Lord</bossName>
+			<damage>70</damage>
+			<defence>25</defence>
+			<healthPoints>720</healthPoints>
+			<targetStrategy>R</targetStrategy>
+		</Boss>
+		<Boss>
+			<bossName>Dark Knight</bossName>
+			<damage>40</damage>
+			<defence>40</defence>
+			<healthPoints>700</healthPoints>
+			<targetStrategy>H</targetStrategy>
+		</Boss>
+	</Bosses>
+</BossInfo>

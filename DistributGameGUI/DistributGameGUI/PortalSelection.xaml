@@ -1,0 +1,40 @@
+﻿<Window x:Class="DistributGameGUI.PortalSelection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DistributGameGUI"
+        mc:Ignorable="d"
+        Title="PortalSelection" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid >
+        <Label Content="Portal Selection" HorizontalAlignment="Left" Margin="317,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.505,0.531" FontSize="22" FontWeight="Bold" FontFamily="Times New Roman"/>
+        <Button x:Name="btn_Server1" Content="Enter" HorizontalAlignment="Left" Margin="229,333,0,0" VerticalAlignment="Top" Width="100" Height="30"  Click="btn_Server_Click" FontFamily="Times New Roman" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Friends" HorizontalAlignment="Left" Margin="596,132,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="welcome" Content="Label" HorizontalAlignment="Left" Margin="525,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Server Info:" HorizontalAlignment="Left" Margin="64,124,0,0" VerticalAlignment="Top" RenderTransformOrigin="-5.705,-0.305"/>
+        <Button x:Name="btn_Server1_View" Content="View" HorizontalAlignment="Left" Margin="64,333,0,0" VerticalAlignment="Top" Width="100" Height="30" FontFamily="Times New Roman" FontSize="24" FontWeight="Bold" Click="btn_Server_View_Click"/>
+        <ListView x:Name="lvFriendState" HorizontalAlignment="Left" Height="170" Margin="550,158,0,0" VerticalAlignment="Top" Width="145">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" Width="70"
+                                    DisplayMemberBinding="{Binding name}"/>
+                    <GridViewColumn Header="State" Width="70"
+                                    DisplayMemberBinding="{Binding state}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView x:Name="lvServerState" HorizontalAlignment="Left" Height="133" Margin="64,155,0,0" VerticalAlignment="Top" Width="265">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" Width="70"
+                                    DisplayMemberBinding="{Binding name}"/>
+                    <GridViewColumn Header="State" Width="70"
+                                    DisplayMemberBinding="{Binding state}"/>
+                    <GridViewColumn Header="Number of player" Width="120"
+                                    DisplayMemberBinding="{Binding numberClient}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>

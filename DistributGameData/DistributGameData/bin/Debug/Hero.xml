@@ -1,0 +1,118 @@
+<HeroInfo xmlns="http://schemas.datacontract.org/2004/07/DistributGameData" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<Heroes>
+		<Hero>
+			<abilityList>
+				<Ability>
+					<description>Fire ball: cause fire damage to a single enermy</description>
+					<target>S</target>
+					<type>D</type>
+					<value>40</value>
+				</Ability>
+				<Ability>
+					<description>Ice ball: cause ice damage to a single enermy</description>
+					<target>S</target>
+					<type>D</type>
+					<value>30</value>
+				</Ability>
+			</abilityList>
+			<defence>15</defence>
+			<healthPoints>50</healthPoints>
+			<heroName>Mana</heroName>
+		</Hero>
+		<Hero>
+			<abilityList>
+				<Ability>
+					<description>big heal: Heal all ally</description>
+					<target>M</target>
+					<type>H</type>
+					<value>50</value>
+				</Ability>
+				<Ability>
+					<description>light: cause light damage to a single enermy</description>
+					<target>S</target>
+					<type>D</type>
+					<value>30</value>
+				</Ability>
+			</abilityList>
+			<defence>15</defence>
+			<healthPoints>40</healthPoints>
+			<heroName>priest</heroName>
+		</Hero>
+		<Hero>
+			<abilityList>
+				<Ability>
+					<description>Stike:  Use sword to cause physical damage to a single enermy</description>
+					<target>S</target>
+					<type>D</type>
+					<value>40</value>
+				</Ability>
+				<Ability>
+					<description>punch: cause physical damage to a single enermy</description>
+					<target>S</target>
+					<type>D</type>
+					<value>25</value>
+				</Ability>
+			</abilityList>
+			<defence>25</defence>
+			<healthPoints>60</healthPoints>
+			<heroName>Solder</heroName>
+		</Hero>
+		<Hero>
+			<abilityList>
+				<Ability>
+					<description>Arrow: shoot arrow to cause fire damage to a single enermy</description>
+					<target>S</target>
+					<type>D</type>
+					<value>40</value>
+				</Ability>
+				<Ability>
+					<description>heal: Heal single ally</description>
+					<target>S</target>
+					<type>H</type>
+					<value>30</value>
+				</Ability>
+			</abilityList>
+			<defence>20</defence>
+			<healthPoints>45</healthPoints>
+			<heroName>bowman</heroName>
+		</Hero>
+		<Hero>
+			<abilityList>
+				<Ability>
+					<description>bomb: throw a bomb cause damage to a single enermy</description>
+					<target>S</target>
+					<type>D</type>
+					<value>40</value>
+				</Ability>
+				<Ability>
+					<description>big bang: cause a great damage to a single enermy</description>
+					<target>S</target>
+					<type>D</type>
+					<value>80</value>
+				</Ability>
+			</abilityList>
+			<defence>10</defence>
+			<healthPoints>30</healthPoints>
+			<heroName>Scientist</heroName>
+		</Hero>
+		<Hero>
+			<abilityList>
+				<Ability>
+					<description>Lighting: cause Lighting damage to a single enermy</description>
+					<target>S</target>
+					<type>D</type>
+					<value>135</value>
+				</Ability>
+				<Ability>
+					<description>Tsunami : cause water damage to a single enermy</description>
+					<target>S</target>
+					<type>D</type>
+					<value>150</value>
+				</Ability>
+			</abilityList>
+			<defence>45</defence>
+			<healthPoints>200</healthPoints>
+			<heroName>Elder</heroName>
+		</Hero>
+	</Heroes>
+</HeroInfo>

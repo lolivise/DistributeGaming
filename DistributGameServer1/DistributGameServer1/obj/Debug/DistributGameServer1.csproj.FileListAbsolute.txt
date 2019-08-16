@@ -1,0 +1,11 @@
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\bin\Debug\DistributGameServer1.exe.config
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\bin\Debug\DistributGameServer1.exe
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\bin\Debug\DistributGameServer1.pdb
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\bin\Debug\DistributGameData.exe
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\bin\Debug\DistributGameData.pdb
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\bin\Debug\DistributGameData.exe.config
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\obj\Debug\DistributGameServer1.csprojResolveAssemblyReference.cache
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\obj\Debug\DistributGameServer1.csproj.CoreCompileInputs.cache
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\obj\Debug\DistributGameServer1.csproj.CopyComplete
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\obj\Debug\DistributGameServer1.exe
+D:\DC_Assessment\DistributGameServer1\DistributGameServer1\obj\Debug\DistributGameServer1.pdb

@@ -1,0 +1,98 @@
+<UserInfo xmlns="http://schemas.datacontract.org/2004/07/DistributGameData" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<Users>
+		<User>
+			<friendList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:int>1</a:int>
+				<a:int>2</a:int>
+				<a:int>7</a:int>
+				<a:int>9</a:int>
+			</friendList>
+			<password>cO$$e2</password>
+			<userName>Ianto</userName>
+		</User>
+		<User>
+			<friendList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:int>0</a:int>
+				<a:int>4</a:int>
+				<a:int>5</a:int>
+				<a:int>7</a:int>
+			</friendList>
+			<password>h@rKn2$$</password>
+			<userName>Jack</userName>
+		</User>
+		<User>
+			<friendList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:int>0</a:int>
+				<a:int>4</a:int>
+				<a:int>9</a:int>
+			</friendList>
+			<password>m@1NfrAm2</password>
+			<userName>Toshiko</userName>
+		</User>
+		<User>
+			<friendList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:int>4</a:int>
+				<a:int>6</a:int>
+				<a:int>7</a:int>
+				<a:int>8</a:int>
+			</friendList>
+			<password>$wEe71e</password>
+			<userName>River</userName>
+		</User>
+		<User>
+			<friendList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:int>1</a:int>
+				<a:int>2</a:int>
+				<a:int>3</a:int>
+				<a:int>8</a:int>
+			</friendList>
+			<password>D0c%0r</password>
+			<userName>Donna</userName>
+		</User>
+		<User>
+			<friendList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:int>1</a:int>
+				<a:int>6</a:int>
+				<a:int>7</a:int>
+			</friendList>
+			<password>DfeD$</password>
+			<userName>Gorge</userName>
+		</User>
+		<User>
+			<friendList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:int>3</a:int>
+				<a:int>5</a:int>
+			</friendList>
+			<password>JKD$#$</password>
+			<userName>David</userName>
+		</User>
+		<User>
+			<friendList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:int>0</a:int>
+				<a:int>1</a:int>
+				<a:int>3</a:int>
+				<a:int>5</a:int>
+			</friendList>
+			<password>A*E@!S</password>
+			<userName>Lotus</userName>
+		</User>
+		<User>
+			<friendList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:int>3</a:int>
+				<a:int>4</a:int>
+				<a:int>9</a:int>
+			</friendList>
+			<password>SL#SKD+</password>
+			<userName>Dan</userName>
+		</User>
+		<User>
+			<friendList xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<a:int>0</a:int>
+				<a:int>2</a:int>
+				<a:int>8</a:int>
+			</friendList>
+			<password>QLD^SK</password>
+			<userName>Dory</userName>
+		</User>
+	</Users>
+</UserInfo>
